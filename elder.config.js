@@ -1,10 +1,21 @@
 module.exports = {
-  origin: '', // TODO: update this.
+  origin: '',
   lang: 'en',
   srcDir: 'src',
-  distDir: 'public',
+  distDir: 'data/www',
   rootDir: process.cwd(),
   build: {},
+  /*locations: {
+    public: './data/www/',
+    assets: './data/www/assets/',
+    svelte: {
+      // trialing slash required
+      ssrComponents: './data/ssr/',
+      clientComponents: './data/www/widgets/',
+    },
+    //systemJs: '/assets/s.min.js',
+    //intersectionObserverPoly: '/assets/intersection-observer.js',
+  },*/
   server: {
     prefix: '',
   },

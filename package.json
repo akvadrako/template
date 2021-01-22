@@ -31,6 +31,8 @@
     "glob": "^7.1.6",
     "intersection-observer": "^0.11.0",
     "polka": "^0.5.2",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-scss": "^2.6.1",
     "sirv": "^1.0.5",
     "svelte": "3.29.0",
     "svelte-preprocess": "^4.0.9"
